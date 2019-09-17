@@ -83,8 +83,6 @@
             this.globalEventProvider1.KeyUp += new System.Windows.Forms.KeyEventHandler(this.HookManager_KeyUp);
             this.globalEventProvider1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.HookManager_KeyDown);
             // 
-     
-            // 
             // toolTip1
             // 
             this.toolTip1.AutoPopDelay = 5000;
