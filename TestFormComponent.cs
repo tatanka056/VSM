@@ -16,20 +16,20 @@ namespace VMS
 
         private void HookManager_KeyDown(object sender, KeyEventArgs e)
         {
-            textBoxLog.AppendText(string.Format("KeyDown - {0}\n", e.KeyCode));
-            textBoxLog.ScrollToCaret();
+           // textBoxLog.AppendText(string.Format("KeyDown - {0}\n", e.KeyCode));
+           //textBoxLog.ScrollToCaret();
         }
 
         private void HookManager_KeyUp(object sender, KeyEventArgs e)
         {
-            textBoxLog.AppendText(string.Format("KeyUp - {0}\n", e.KeyCode));
-            textBoxLog.ScrollToCaret();
+            //textBoxLog.AppendText(string.Format("KeyUp - {0}\n", e.KeyCode));
+            //textBoxLog.ScrollToCaret();
         }
 
         private void HookManager_KeyPress(object sender, KeyPressEventArgs e)
         {
-            textBoxLog.AppendText(string.Format("KeyPress - {0}\n", e.KeyChar));
-            textBoxLog.ScrollToCaret();
+            //textBoxLog.AppendText(string.Format("KeyPress - {0}\n", e.KeyChar));
+            //textBoxLog.ScrollToCaret();
         }
 
         private void HookManager_MouseMove(object sender, MouseEventArgs e)

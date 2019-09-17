@@ -104,6 +104,9 @@ namespace VMS
             /* Esecuzione thread per esecuzione comandi */
             EseguiMacro();
 
+            Application.Exit();
+
+
 
         }
 

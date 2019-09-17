@@ -1,2 +1,0 @@
-# VSM
-SendMessage PostMessage Automatic
